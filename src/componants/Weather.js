@@ -27,7 +27,7 @@ useEffect(()=>{
         <img className="humi" src="weather2.png" />
         <div className="info">
           <p className="humidity">{city?.main?.humidity}%</p>
-          <p>Humidity</p>
+          <p>Humidity test</p>
         </div>
       </div>
       <div className="col">
