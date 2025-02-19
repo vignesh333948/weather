@@ -20,8 +20,8 @@ useEffect(()=>{
   </div>
   <div className="weather">
     <img className="weather-icon" src='weather1.webp' alt="..." />
-    <h1 className="temp">{city?.main?.temp}°C </h1>
-    <h2 className="city">{city?.name}</h2>
+    <h2 className="temp">{city?.main?.temp}°C </h2>
+    <h3 className="city">{city?.name}</h3>
     <div className="details">
       <div style={{display: 'flex'}} className="col">
         <img className="humi" src="weather2.png" />
